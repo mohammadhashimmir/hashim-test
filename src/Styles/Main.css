@@ -130,8 +130,8 @@
 /* Extra Small Devices (Portrait Mobile Phones) */
 @media only screen and (max-width: 479px) {
     .main-content-wrapper {
-        background-color: aquamarine;
-        padding-top: 1em;
+        /* background-color: aquamarine; */
+        /* padding-top: 1em; */
         width: 100%;
         flex-direction: column;
         justify-content: center;
