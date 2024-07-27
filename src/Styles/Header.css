@@ -105,6 +105,10 @@
   .nav-links {
     gap: 0;
   }
+  .nav-mode {
+    height: 20px;
+    width: 20px;
+  }
 
   .my-name {
     font-size: 1.2em;
