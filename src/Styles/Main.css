@@ -118,11 +118,13 @@ width: 100%;
   @keyframes slideInRight {
     from {
       /* transform: translateX(100%); */
+      scale: 0;
       opacity: 0;
     }
     to {
       /* transform: translateX(0); */
       opacity: 1;
+      scale: 1;
     }
   }
   

@@ -22,5 +22,4 @@ function Socials({outerClass, innerClass}) {
                 </div>
   )
 }
-
 export default Socials

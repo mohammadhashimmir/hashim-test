@@ -19,10 +19,10 @@ function Header() {
         </div>
         <div className="my-name">Mohammad Hashim Mir</div>
         <div className="nav-links">
-          <div><a href="#" className="nav-link">Projects</a></div>
-          <div><a href="#" className="nav-link">Resume</a></div>
+          <div><a href="www.google.com" className="nav-link">Projects</a></div>
+          <div><a href="www.google.com" className="nav-link">Resume</a></div>
           {/* <div><a href="#" className="nav-link">About</a></div> */}
-          {/* <div className="nav-mode">
+          <div className="nav-mode">
             <IoMoon
               onClick={toggleTheme}
               className={`moon-icon ${toggleLight ? '' : 'hide'}`}
@@ -31,7 +31,7 @@ function Header() {
               onClick={toggleTheme}
               className={`sun-icon ${toggleLight ? '' : 'show'}`}
             />
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
