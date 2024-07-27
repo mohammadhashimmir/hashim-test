@@ -5,13 +5,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0;
 }
 
 .main-content-wrapper {
+    
     display: flex;
     justify-content: space-between;
-    /* height: 50vh; */
     width: 40%;
 }
 
@@ -22,7 +21,8 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #1b1a1a;
+    /* background-color: #1b1a1a; */
+    background-color: #d9d8d7;
 }
 
 .image-wrapper {
@@ -36,7 +36,8 @@
 }
 
 .main-title {
-    color: #d9d8d7;
+    /* color: #d9d8d7; */
+    color: #1b1a1a;
 }
 
 .main-title .first,
@@ -52,8 +53,10 @@
 }
 
 .social-links-mini {
-    background-color: #d9d8d7;
-    color: black;
+    /* background-color: #d9d8d7; */
+    background-color: #efefee;
+    color: #1b1a1a;
+    /* color: black; */
     width: 100%;
 }
 
@@ -117,8 +120,6 @@
         scale: 1;
     }
 }
-
-/* Apply the animations to the divs */
 .content-left {
     animation: slideInLeft 1s ease-out forwards;
 }
@@ -128,14 +129,20 @@
 }
 
 /* Extra Small Devices (Portrait Mobile Phones) */
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
     .main-content-wrapper {
         /* background-color: aquamarine; */
         /* padding-top: 1em; */
+        padding: 1em 1em;
         width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .main-div{
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 3vh;
     }
 
     .content-left,
@@ -173,12 +180,29 @@
     height: 120px;
     border-radius: 50%;
 }
+@keyframes slideInDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translatey(0);
+        opacity: 1;
+    }
+}
+.content-left {
+    animation: slideInDown 1s ease-out forwards;
+}
 }
 
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
     .main-content-wrapper {
         width: 95%;
+    }
+    .main-div{
+        margin-top: 3vh;
     }
 }
 

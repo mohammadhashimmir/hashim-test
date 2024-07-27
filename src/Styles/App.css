@@ -6,3 +6,6 @@
     /* height: 100vh; */
     /* overflow: hidden; */
 }
+/* *, *::before, *::after {
+    box-sizing: border-box;
+  } */
