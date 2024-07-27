@@ -5,10 +5,14 @@
     align-items: center;
     font-family: 'Sen', sans-serif;
     font-size: 1em;
-    padding: 1em 1em;
-    /* background-color: blueviolet; */
-    
+    gap: 0;
+    padding: 1em 1em;   
 }
 .socialLinkMain:hover{
 cursor: pointer;
 }
+/* @media only screen and (max-width: 768px){
+    .socialLinksMain{
+        display: none;
+    }
+} */

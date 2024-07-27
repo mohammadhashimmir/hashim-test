@@ -9,16 +9,14 @@ function Main() {
     <div className='main-div'>
       <div className='main-content-wrapper'>
         <div className='content-left'>
-          <div className='image-wrapper'><img src={pic} alt="dp"/></div>
-        <div className='main-title' style={{textAlign:"center"}}> <p className="first">Mohammad</p>
+          <div className='image-wrapper'><img src={pic} alt="dp" /></div>
+          <div className='main-title' style={{ textAlign: "center" }}> <p className="first">Mohammad</p>
             <p className="second">Hashim</p>
             <p>━━━━</p>
             <p className="third">FRONT-END DEVELOPER</p></div>
-            <div className='social-links-mini'>
-<Socials outerClass={styles.socialLinksMain} innerClass={styles.socialLinkMain}/>
-            </div>
-            
-
+          <div className='social-links-mini'>
+            <Socials outerClass={styles.socialLinksMain} innerClass={styles.socialLinkMain} />
+          </div>
         </div>
         <div className='content-right'>
           <div className='top-title'><p>Hello,</p><p>Here is who i am & what i do</p></div>
