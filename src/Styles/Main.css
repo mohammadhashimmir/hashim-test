@@ -162,7 +162,7 @@ width: 100%; */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
     /* Styles for devices between 320px and 479px wide */
     .main-content-wrapper{
-        width: 98%;}
+        width: 100%;}
   }
   
   /* Small Devices (Landscape Mobile Phones) */
