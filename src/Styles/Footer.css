@@ -50,7 +50,7 @@
 @media only screen and (max-width:768px) {
     .footer-main {
         /* flex: 0 0 30vh; */
-        height: 30vh;
+        height: 20vh;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
