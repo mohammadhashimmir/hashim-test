@@ -14,7 +14,7 @@
 .main-content-wrapper{
     display: flex;
     justify-content: space-between;
-    height: 50vh;
+    /* height: 50vh; */
     /* background-color: orange; */
     /* z-index: 999; */
     width: 40%;
@@ -70,9 +70,9 @@ width: 100%;
     color: #1b1a1a;
     height: 100%;
     width: 49%;
-    gap: 1rem;
+    gap: 2rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     /* align-items: center; */
     flex-direction: column;
     /* background-color: pink; */
@@ -181,7 +181,8 @@ width: 100%; */
   /* Medium Devices (Tablets) */
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     .main-content-wrapper{
-        width: 90%;}
+        width: 100%;
+   ;}
         .mid-description p, .bottom-skills p{
             font-size: 0.7em;
         }
