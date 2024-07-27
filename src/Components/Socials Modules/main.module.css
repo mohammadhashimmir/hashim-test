@@ -11,8 +11,8 @@
 .socialLinkMain:hover{
 cursor: pointer;
 }
-/* @media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
     .socialLinksMain{
         display: none;
     }
-} */
+}
