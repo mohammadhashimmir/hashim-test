@@ -1,0 +1,14 @@
+.socialLinksFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+.socialLinkFooter:hover{
+cursor: pointer;
+}
+.socialLinksFooter{
+    font-family: 'Sen', sans-serif;
+    font-size: 0.9em;
+}

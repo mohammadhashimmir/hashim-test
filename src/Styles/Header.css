@@ -1,0 +1,120 @@
+
+.navbar-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* position: fixed;
+  top: 0; */
+  /* flex: 0 0 10vh; */
+  height: 10vh;
+}
+
+.ham-icon {
+  display: none;
+  /* background-color: orange; */
+}
+.my-name {
+  font-family: 'Poppins', sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  /* font-weight: 500; */
+  margin: 0;
+  font-size: 1.5em;
+  color: black;
+  /* background-color: pink; */
+}
+
+.my-name:hover {
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.nav-mode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #1b1a1a;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-mode>svg {
+  position: absolute;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.moon-icon {
+  transform: rotate(360deg) scale(1);
+  opacity: 1;
+}
+
+.moon-icon.hide {
+  transform: rotate(0deg) scale(0);
+  opacity: 0;
+}
+
+.sun-icon {
+  transform: rotate(0deg) scale(0);
+  opacity: 0;
+}
+
+.sun-icon.show {
+  transform: rotate(360deg) scale(1);
+  opacity: 1;
+}
+
+@media only screen and (max-width:768px) {
+  .navbar-wrapper {
+    /* flex: 0 0 5vh; */
+    height: 5vh;
+  }
+  .ham-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ham-icon>svg {
+    height: 30px;
+    width: 30px;
+  }
+
+  .nav-link {
+    display: none;
+  }
+
+  .nav-links {
+    gap: 0;
+  }
+
+  .my-name {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .navbar {
+    width: 100%;
+    padding: 0rem 1rem;
+  }
+}

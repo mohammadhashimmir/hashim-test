@@ -1,0 +1,14 @@
+.socialLinksMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+    font-family: 'Sen', sans-serif;
+    font-size: 1em;
+    padding: 1em 1em;
+    /* background-color: blueviolet; */
+    
+}
+.socialLinkMain:hover{
+cursor: pointer;
+}
